@@ -1,0 +1,147 @@
+
+
+
+
+body{
+    background-image: url(../multimedia/front-view-delicious-chocolate-cake-stand-with-copy-space.jpg);
+    background-size:cover; 
+
+}
+.navegador{
+    font-family:"pacifico";
+    font-size: 100%;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 91%);
+    
+    
+}
+
+.navbar-brand{
+    font-size: 200%;
+}
+
+
+
+.thereal{
+    width: 1300px;
+    padding-top: 50px;
+    position: absolute;
+    left: -140px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    margin-top: 70px;
+    text-align: justify;
+}
+
+#miCarrusel{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 300px;
+    padding-right: 200px;
+    
+    
+}
+.card{
+    margin-top: 50px;
+    align-items: center;
+}
+
+.card-img-top{
+    height: 250px;
+    
+}
+
+.card:not(:last-child){
+    margin-right: 50px;
+
+}
+
+.card-text{
+    font-family: "pacifico";
+    font-size: 25px;
+    
+}
+
+
+
+
+
+
+@media (max-width:760px){
+    
+    body{
+        background-image: url(../multimedia/Sin\ título-4.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    
+    .thereal{
+        display: flex;
+        width: 500px;
+        padding-top: 110px;
+        padding-left: 120px;
+    }
+
+    .carrusel{
+        width: 300px;
+
+        
+    }
+
+    .container {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.712);
+        backdrop-filter: blur(10px);
+        margin-top: 70px;
+        text-align: justify;
+    }
+    #miCarrusel{
+        width: 200px;
+        margin-left: 90px;
+        padding-bottom: 50px;
+    }
+
+    .galeria{
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+        padding-right: 2px;
+        width: 100px;
+        
+        
+    }
+    .card{
+        margin-top: 50px;
+        align-items: center;
+        
+    }
+    
+    .card-img-top{
+        height: 250px;
+        
+    }
+    
+    .card:not(:last-child){
+        margin-right: 5px;
+    
+    }
+    
+    .card-text{
+        font-family: "pacifico";
+        font-size: 24px;
+        
+    }
+}
